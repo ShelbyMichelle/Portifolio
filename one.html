@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: #f8f4f4;
+        }
+        ul {
+            list-style-type: none;
+            padding: 15px;
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        li {
+            margin: 0 15px;
+        }
+        li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+        li a:hover {
+            background-color: #555;
+        }
+        .first {
+            background-color: #f4e1d2;
+            color: #000;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .first h3 {
+            color: #000;
+            font-weight: bold;
+        }
+        .first h1 {
+            font-size: 2.5em;
+            margin-top: 10px;
+        }
+        .first button {
+            background-color: #e76f51;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .first img {
+            width: 250px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+            background-color: pink;
+            text-align: center;
+        }
+        .service-box {
+            width: 30%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#branding">BRANDING</a></li>
+        <li><a href="#about">ABOUT</a></li>
+    </ul>
+    
+    <div class="first">
+        <h3>MY NAME IS MICHELLE LIPENGA</h3>
+        <h1>I Am A Creative Website Developer <br> From Lilongwe, Malawi.</h1>
+        <br>
+        <p>Don't hesitate to reach out! Tap the button below</p>
+        <button><a href="#contact" style="color: white; text-decoration: none;">CONTACT ME</a></button>
+        <br>
+        <img src="slack.jpg" alt="Michelle Lipenga">
+    </div>
+    
+    <div class="services">
+        <div class="service-box" id="contact">
+            <h3>CONTACT ME</h3>
+            <p>Email: michellelipenga@gmail.com</p>
+            <p>WhatsApp: 0983847913</p>
+            <p>Call: 0886477266</p>
+        </div>
+        <div class="service-box" id="branding">
+            <h3>BRANDING & LOGO</h3>
+            <p>Logo designs attract extra charges.</p>
+            <p>Make sure to bring the design you wish for in advance.</p>
+        </div>
+        <div class="service-box" id="about">
+            <h3>ABOUT</h3>
+            <p>I have grown so much in my career as a web developer.</p>
+            <p>Efficiently equipped with HTML, CSS, JS, and JAVA.</p>
+            <p>I wish to grow further by learning from others.</p>
+        </div>
+    </div>
+</body>
+</html>
