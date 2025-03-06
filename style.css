@@ -1,0 +1,46 @@
+.content1{
+ text-align: center;
+ font-style: light italic;
+
+}
+
+#h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bx{
+    width: 10rem;
+    margin: 5px;
+    margin: 10px;
+   
+}
+
+.box{
+    border-radius: 1rem;
+    border: 0.2rem solid #3882F6;
+    width: 10rem;
+    height: 10rem;
+    
+    
+}
+
+
+.content2{
+    padding: 1rem;
+    background-color: #E5E7EB;
+    font-size: 30px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+#p2{
+    font-weight: 900;
+    text-align: right;
+}
